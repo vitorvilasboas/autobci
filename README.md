@@ -2,7 +2,6 @@
 
 ## Plataforma de Interface Cérebro-Máquina com Configuração Automatizada
 ---
-* para mais detalhes veja https://vitorvilasboas.github.io/autobci/
 
 ### Demo: 
 - https://youtu.be/5l7inGVSwsc
@@ -50,3 +49,4 @@ python autobci
 * IDE Spyder (Disponível via Anaconda)
 * IDE PyCharm: https://www.jetbrains.com/pycharm/promo/anaconda/
 
+* para mais detalhes acesse https://vitorvilasboas.github.io/autobci/ (em construção)
