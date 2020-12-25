@@ -5,18 +5,14 @@
 
 ## Instalação em sistemas Linux ##
 ```shell
-sudo apt install python3.7
-sudo apt install python3-pip
-pip install numpy
-pip install scipy
-pip install matplotlib
-pip install scikit-learn
-pip install pyserial
-pip install -c conda-forge kivy
+sudo apt install python3.7 python3-pip
+pip install numpy scipy matplotlib scikit-learn pyserial
+pip install git+https://github.com/kivy/kivy
 pip install kivy-garden
 garden install bar
 garden install graph
-pip install hyperopt
+pip install hyperopt pygame pyautogui plyer pyOpenBCI
+pip install xorg-libx11
 pip install -U https://api.github.com/repos/mne-tools/mne-python/zipball/master
 sudo apt-get install xclip xsel
 sudo chmod 777 /dev/input/event*
