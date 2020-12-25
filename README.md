@@ -18,12 +18,12 @@ sudo apt-get install xclip xsel
 sudo chmod 777 /dev/input/event*
 ```
 
-## Clonar o Repositório ##
+## Clonar o repositório (ou efetuar o download) ##
 ```shell
 git clone https://github.com/vitorvilasboas/autobci
 ```
 
-## Executar a plataforma ##
+## Executar a plataforma (executar de dentro do diretório raiz do autobci) ##
 ```shell
 python autobci
 ```
