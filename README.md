@@ -1,7 +1,8 @@
 # AutoBCI
----
-## Plataforma de Interface Cérebro-Máquina com Configuração Automatizada
 
+## Plataforma de Interface Cérebro-Máquina com Configuração Automatizada
+---
+* para mais detalhes veja https://vitorvilasboas.github.io/autobci/
 
 ## Instalação em sistemas Linux ##
 ```shell
