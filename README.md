@@ -6,18 +6,11 @@
 ### Demo: 
 - https://youtu.be/5l7inGVSwsc
 
-### Instalação em sistemas Linux ##
+### Instalação em sistemas Linux (Preparação do sistema): ##
 ```shell
 sudo apt install python3.7 python3-pip
-pip install numpy scipy matplotlib scikit-learn pyserial
-pip install git+https://github.com/kivy/kivy
-pip install kivy-garden
-garden install bar
-garden install graph
-pip install hyperopt pygame pyautogui plyer pyOpenBCI
-pip install xorg-libx11
-pip install -U https://api.github.com/repos/mne-tools/mne-python/zipball/master
-sudo apt-get install xclip xsel
+sudo ln -sf /usr/bin/python3.7 /usr/bin/python
+sudo apt-get install -y libglib2.0-dev sox xclip xsel build-essential libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev zlib1g-dev ffmpeg
 sudo chmod 777 /dev/input/event*
 ```
 
@@ -26,9 +19,15 @@ sudo chmod 777 /dev/input/event*
 git clone https://github.com/vitorvilasboas/autobci
 ```
 
-### Executar a plataforma (executar de dentro do diretório raiz do autobci)
+### Intalação de dependências (módulos python):
 ```shell
-python autobci
+cd ~/Download/autobci/
+python -m pip install -r requirements.txt
+```
+
+### Executar a plataforma (executar a partir do diretório raiz do autobci)
+```shell
+python main.py
 ```
 
 ### Dados públicos de EEG incorporados: ###
