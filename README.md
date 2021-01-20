@@ -21,7 +21,7 @@ git clone https://github.com/vitorvilasboas/autobci
 
 ### Intalação de dependências (módulos python):
 ```shell
-cd ~/Download/autobci/
+cd ~/Downloads/autobci/
 python -m pip install -r requirements.txt
 ```
 
